@@ -16,7 +16,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
-**Overseerr** is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as **[Sonarr](https://sonarr.tv/)**, **[Radarr](https://radarr.video/)**, and **[Plex](https://www.plex.tv/)**!
+**Overseerr** is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as **[Sonarr](https://sonarr.tv/)**, **[Radarr](https://radarr.video/)**, and **[Plex](https://plex.troplo.com/)**!
 
 ## Current Features
 

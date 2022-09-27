@@ -79,7 +79,7 @@ class PlexOAuth {
       );
     }
     const response = await axios.post(
-      'https://plex.tv/api/v2/pins?strong=true',
+      'https://plex.troplo.com/api/v2/pins?strong=true',
       undefined,
       { headers: this.plexHeaders }
     );
@@ -118,7 +118,7 @@ class PlexOAuth {
     };
 
     if (this.popup) {
-      this.popup.location.href = `https://app.plex.tv/auth/#!?${this.encodeData(
+      this.popup.location.href = `https://plex.troplo.com/auth/#!?${this.encodeData(
         params
       )}`;
     }
@@ -137,7 +137,7 @@ class PlexOAuth {
         }
 
         const response = await axios.get(
-          `https://plex.tv/api/v2/pins/${this.pin.id}`,
+          `https://plex.troplo.com/api/v2/pins/${this.pin.id}`,
           { headers: this.plexHeaders }
         );
 

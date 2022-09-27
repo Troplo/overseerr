@@ -163,7 +163,7 @@ class Media {
 
     if (this.ratingKey) {
       this.plexUrl = `${
-        webAppUrl ? webAppUrl : 'https://app.plex.tv/desktop'
+        webAppUrl ? webAppUrl : 'https://plex.troplo.com/desktop'
       }#!/server/${machineId}/details?key=%2Flibrary%2Fmetadata%2F${
         this.ratingKey
       }`;
@@ -177,7 +177,7 @@ class Media {
 
     if (this.ratingKey4k) {
       this.plexUrl4k = `${
-        webAppUrl ? webAppUrl : 'https://app.plex.tv/desktop'
+        webAppUrl ? webAppUrl : 'https://plex.troplo.com/desktop'
       }#!/server/${machineId}/details?key=%2Flibrary%2Fmetadata%2F${
         this.ratingKey4k
       }`;

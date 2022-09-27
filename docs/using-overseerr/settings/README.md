@@ -99,7 +99,7 @@ This setting only affects new users, and has no impact on existing users. In ord
 ### Plex Settings
 
 {% hint style="info" %}
-To set up Plex, you can either enter your details manually or select a server retrieved from [plex.tv](https://plex.tv/). Press the button to the right of the "Server" dropdown to retrieve available servers.
+To set up Plex, you can either enter your details manually or select a server retrieved from [plex.tv](https://plex.troplo.com/). Press the button to the right of the "Server" dropdown to retrieve available servers.
 
 Depending on your setup/configuration, you may need to enter your Plex server details manually in order to establish a connection from Overseerr.
 {% endhint %}

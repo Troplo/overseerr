@@ -176,7 +176,7 @@ components:
         webAppUrl:
           type: string
           nullable: true
-          example: 'https://app.plex.tv/desktop'
+          example: 'https://plex.troplo.com/desktop'
       required:
         - name
         - machineId

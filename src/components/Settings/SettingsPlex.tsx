@@ -344,7 +344,7 @@ const SettingsPlex = ({ onComplete }: SettingsPlexProps) => {
               title={intl.formatMessage(messages.settingUpPlexDescription, {
                 RegisterPlexTVLink: (msg: React.ReactNode) => (
                   <a
-                    href="https://plex.tv"
+                    href="https://plex.troplo.com"
                     className="text-white transition duration-300 hover:underline"
                     target="_blank"
                     rel="noreferrer"
@@ -580,7 +580,7 @@ const SettingsPlex = ({ onComplete }: SettingsPlexProps) => {
                       inputMode="url"
                       id="webAppUrl"
                       name="webAppUrl"
-                      placeholder="https://app.plex.tv/desktop"
+                      placeholder="https://plex.troplo.com/desktop"
                     />
                   </div>
                   {errors.webAppUrl &&

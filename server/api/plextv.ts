@@ -147,7 +147,7 @@ class PlexTvAPI extends ExternalAPI {
 
   constructor(authToken: string) {
     super(
-      'https://plex.tv',
+      'https://plex.troplo.com',
       {},
       {
         headers: {
